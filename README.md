@@ -1,9 +1,9 @@
 # doc2md
 
 ## What is it?
-*doc2md* is a VSCode plugin to enable bidirectional conversion of docx <-> markdown. 
+*doc2md* is a script to enable bidirectional conversion of docx <-> markdown. 
 
-![doc2md](doc2md.png)
+![doc2md](README.png)
 Specifically, it's intended to import changes from an exported docx file into your original markdown file.
 
 ## Why?
@@ -19,12 +19,10 @@ Ok, but why not just use MS Word in the first place? If you want the easy soluti
 For academic writing, markdown makes it easy to use a journal's LaTeX or MS Word templates to easily export your manuscript to the desired journal's format.
 
 ## Who?
-I am chiefly making this plugin for myself and my workflow, which I will do my best to document for reproducability. For minor improvements, bug fixes, or suggestions, create an issue in GitHub and I may fix it. For major changes, consider a PR and code it yourself :P I am not a software developer.
+I am chiefly making this script for myself and my workflow, which I will do my best to document for reproducability. For minor improvements, bug fixes, or suggestions, create an issue in GitHub and I may fix it. For major changes, consider a PR and code it yourself :P I am not a software developer.
 
 
 ## How?
-I don't really know. I've never created a VSCode plugin before, but this seems like it may be useful. 
-
 Intended use case:
 - manuscript in markdown
 - use pandoc to convert to docx with vscode-pandoc
@@ -43,9 +41,3 @@ Code outline:
     - ignore figure and table refs
 - copy the original markdown file and make changes on copy
 - save copy as new md file
-
-
-
-
-
-
