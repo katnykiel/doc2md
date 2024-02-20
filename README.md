@@ -41,3 +41,7 @@ Code outline:
     - ignore figure and table refs
 - copy the original markdown file and make changes on copy
 - save copy as new md file
+
+Requirements:
+- you have some YAML metadata block at the start of your file
+- you have some ## References line at the bottom of your file
